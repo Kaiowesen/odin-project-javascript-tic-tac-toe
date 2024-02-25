@@ -1,0 +1,45 @@
+.main-container {
+    display: grid;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.main-grid {
+    display: grid;
+    height: 70vh;
+    width: 70vw;
+    place-self: center;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+
+.header {
+    display: grid;
+}
+
+.header h1 {
+    place-self: center;
+}
+
+.board-grid {
+    display: grid;
+    place-self: center;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.board-cell {
+    border: 1px solid black;
+
+}
+
+.message-grid {
+    display: grid;
+}
+
+.message-grid h2 {
+    place-self: center;
+    font-size: 30px;
+}
